@@ -129,7 +129,6 @@ projects:
   bootstrap:
     version: '3.10'
   paceandquiet_custom:
-    type: module
-      download:
-        type: "file"
-        url: "http://ec2-54-89-208-161.compute-1.amazonaws.com/paceandquiet_custom.zip"
+    download:
+      type: "file"
+      url: "http://ec2-54-89-208-161.compute-1.amazonaws.com/paceandquiet_custom.zip"
