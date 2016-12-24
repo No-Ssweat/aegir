@@ -1,0 +1,10 @@
+core: 7.x
+api: 2
+projects:
+  drupal:
+    version: '7.52'
+  paceandquiet_custom:
+    type: module
+      download:
+        type: file
+        url: http://ec2-54-89-208-161.compute-1.amazonaws.com/paceandquiet_custom.zip
