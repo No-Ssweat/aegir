@@ -1,0 +1,36 @@
+core: 7.x
+api: 2
+projects:
+  drupal:
+    version: '7.52'
+  paceandquiet_custom:
+    type: module
+    download:
+      type: copy
+      url: 'file:///var/www/html/paceandquiet_custom'
+  ufs_member_discount:
+    type: module
+    download:
+      type: copy
+      url: 'file:///var/www/html/ufs_member_discount'
+  wedderburg:
+    type: profile
+    download:
+      type: copy
+      url: 'file:///var/www/html/wedderburg'
+libraries:
+  mpdf:
+    type: library
+    download:
+      type: copy
+      url: 'file:///var/www/html/mpdf'	
+  colorpicker:
+    type: library
+    download:
+      type: copy
+      url: 'file:///var/www/html/colorpicker'		
+  mpdf_old:
+    type: library	
+    download:
+      type: copy
+      url: 'file:///var/www/html/mpdf_old'		
