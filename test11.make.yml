@@ -1,0 +1,10 @@
+core: 7.x
+api: 2
+projects:
+  drupal:
+    version: '7.52'
+  paceandquiet_custom:
+    type: 'module'
+    download:
+      type: 'copy'
+      url: 'file:///var/www/html/paceandquiet_custom'
