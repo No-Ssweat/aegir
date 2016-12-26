@@ -1,0 +1,16 @@
+core: 7.x
+api: 2
+projects:
+  drupal:
+    version: '7.52'
+  bootstrap:
+    version: '3.10'
+  paceandquiet_custom:
+    type: module
+    custom_download: true
+  ufs_member_discount:
+    type: module
+    custom_download: true
+  peaceandquiet:
+    type: theme
+    custom_download: true
