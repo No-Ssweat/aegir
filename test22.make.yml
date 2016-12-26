@@ -1,0 +1,170 @@
+core: 7.x
+api: 2
+projects:
+  drupal:
+    version: '7.52'
+  addressfield:
+    subdir: contrib
+    version: '1.2'
+  admin_menu:
+    subdir: contrib
+    version: 3.0-rc5
+  backup_migrate:
+    version: '3.1'
+  better_exposed_filters:
+    subdir: contrib
+    version: '3.2'
+  ctools:
+    subdir: contrib
+    version: '1.12'
+  commerce:
+    subdir: contrib
+    version: '1.13'
+  commerce_add_to_cart_confirmation:
+    subdir: contrib
+    version: 1.0-rc2
+  commerce_custom_order_status:
+    version: '1.0'
+  commerce_discount:
+    version: 1.0-alpha8
+  commerce_extra:
+    subdir: contrib
+    version: 1.0-alpha1
+  commerce_flat_rate:
+    subdir: contrib
+    version: 1.0-beta2
+  commerce_paypal:
+    subdir: contrib
+    version: 2.x-dev
+  commerce_shipping:
+    subdir: contrib
+    version: '2.2'
+  conditional_fields:
+    subdir: contrib
+    version: 3.0-alpha2
+  date:
+    version: '2.9'
+  devel:
+    subdir: contrib
+    version: '1.5'
+  entity:
+    subdir: contrib
+    version: '1.8'
+  entityreference:
+    subdir: contrib
+    version: '1.1'
+  feeds:
+    version: 2.0-beta3
+  field_group:
+    version: '1.5'
+  field_validation:
+    subdir: contrib
+    version: '2.6'
+  focal_point:
+    subdir: contrib
+    version: 1.0-beta6
+  form_placeholder:
+    subdir: contrib
+    version: '1.6'
+  inline_conditions:
+    version: 1.0-alpha7
+  inline_entity_form:
+    subdir: contrib
+    version: '1.8'
+  job_scheduler:
+    version: 2.0-alpha3
+  jquery_colorpicker:
+    subdir: contrib
+    version: '1.2'
+  jquery_update:
+    subdir: contrib
+    version: '2.7'
+  libraries:
+    subdir: contrib
+    version: '2.2'
+  mail_logger:
+    subdir: contrib
+    version: '1.4'
+  mailsystem:
+    subdir: contrib
+    version: '2.34'
+  menu_attributes:
+    version: '1.0'
+  menu_item_visibility:
+    subdir: contrib
+    version: 1.0-beta1
+  metatag:
+    subdir: contrib
+    version: '1.18'
+  mimemail:
+    subdir: contrib
+    version: 1.0-beta4
+  module_filter:
+    version: '2.0'
+  pathauto:
+    subdir: contrib
+    version: '1.3'
+  pdf_using_mpdf:
+    subdir: contrib
+    version: '2.6'
+  r4032login:
+    version: '1.8'
+  rules:
+    subdir: contrib
+    version: '2.9'
+  select_or_other:
+    subdir: contrib
+    version: '2.22'
+      patch:
+        some-fixes:
+          type: copy		
+          url: 'file:///var/www/html/select_or_patch.patch'
+  tabtamer:
+    version: '1.1'
+  token:
+    subdir: contrib
+    version: '1.6'
+  views:
+    subdir: contrib
+    version: '3.14'
+  views_php:
+    subdir: contrib
+    version: 1.0-alpha3
+  bootstrap:
+    version: '3.10'
+  paceandquiet_custom:
+    type: module
+    download:
+      type: copy
+      url: 'file:///var/www/html/paceandquiet_custom'
+  ufs_member_discount:
+    type: module
+    download:
+      type: copy
+      url: 'file:///var/www/html/ufs_member_discount'
+  peaceandquiet:
+    type: theme
+    download:
+      type: copy
+      url: 'file:///var/www/html/peaceandquiet'	  
+  wedderburg:
+    type: profile
+    download:
+      type: copy
+      url: 'file:///var/www/html/wedderburg'
+libraries:
+  mpdf:
+    type: library
+    download:
+      type: copy
+      url: 'file:///var/www/html/mpdf'	
+  colorpicker:
+    type: library
+    download:
+      type: copy
+      url: 'file:///var/www/html/colorpicker'		
+  mpdf_old:
+    type: library	
+    download:
+      type: copy
+      url: 'file:///var/www/html/mpdf_old'	  
